@@ -9,18 +9,70 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <nav class="navbar mx-3 my-3 ">
-        <div class="font-extrabold text-2xl">
-            <a href="">
-                <h3>Lotus Bliss Thai Spa</h3>
-            </a>
-
-            <a href="">
-                <h3>Home</h3>
+<body class="bg-blue-900">
+    <!--Navbar-->
+    <nav class="navbar p-3 mx-auto bg-lime-50">
+        <div class="flex items-center justify-between">
+            <!--Logo-->
+            <a href="#" class="font-extrabold text-pink-600">Lotus Bliss Thai Spa</a>
+            <!--Menu items-->
+            <div class="hidden space-x-4 md:flex">
+                <a href="#" class="font-bold text-gray-600 hover:text-gray-900">About Us</a>
+                <a href="#" class="font-bold text-gray-600 hover:text-gray-900">Massage</a>
+                <a href="#" class="font-bold text-gray-600 hover:text-gray-900">Home</a>
+                <a href="#" class="font-bold text-gray-600 hover:text-gray-900">Locations</a>
+                <a href="#" class="font-bold text-gray-600 hover:text-gray-900">Therapy Pricing</a>
+            </div>
+            <!--Appointment button-->
+            <a href="#">
+                <div class="btn space-x-3 bg-pink-400 p-3 rounded-full text-white font-bold hover:bg-pink-600">
+                    Appointment</div>
             </a>
         </div>
     </nav>
+
+    <!--About Us Section-->
+    <section class="my-5 px-5 py-3 text-white">
+        <h3 class="text-center font-bold text-2xl mb-3">About Lotus Bliss Thai Spa</h3>
+        <p><strong>Lotus Bliss Thai Spa</strong> has been your sanctuary of relaxation and rejuvenation for over a year,
+            offering a
+            blissful retreat from the hustle and bustle of daily life. Rooted in the rich traditions of Thai healing,
+            our spa is dedicated to providing an exceptional wellness experience that restores balance to the mind,
+            body, and soul.</p>
+
+        <p>Our experienced therapists specialize in a range of therapeutic and luxurious treatments, from soothing Thai
+            massages to invigorating spa therapies tailored to your unique needs. At Lotus Bliss, every detail—from our
+            serene ambiance to the personalized care you receive—is designed to create a haven of tranquility where you
+            can unwind and recharge.</p>
+
+        <p>Discover the art of self-care and step into a world of relaxation with Lotus Bliss Thai Spa. Let us help you
+            find your inner peace and leave you feeling refreshed, revitalized, and ready to embrace life with renewed
+            energy.</p>
+    </section>
+
+    <hr>
+
+    <section class="mt-5 px-5 py-3">
+        <h3 class="text-center text-white font-bold text-2xl mb-3">Our wellness therapies</h3>
+        <!--Cards-->
+        <div class="columns-xs">
+            <div class="rounded-all bg-yellow-300 p-5 text-center">
+                <h5 class="font-bold text-xl">Foot Massage</h5>
+                <p>Take a moment to relax and rejuvenate with a comforting foot massage. Feel the stress melt away as
+                    gentle pressure and care work wonders for your tired feet.</p>
+            </div>
+        </div>
+        <!--
+        <div class="columns-2">
+            <div class="rounded-all bg-yellow-300 p-5 text-center">
+                <h5 class="font-bold text-xl">Foot Massage</h5>
+                <p>Take a moment to relax and rejuvenate with a comforting foot massage. Feel the stress melt away as
+                    gentle pressure and care work wonders for your tired feet.</p>
+            </div>
+        </div>
+        -->
+
+    </section>
 </body>
 
 </html>
