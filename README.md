@@ -11,12 +11,6 @@ Experience the live site here: [Lotus Bliss Spa Demo](https://lotusblissspa-boot
 - [About The Project](#about-the-project)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## About The Project
 
